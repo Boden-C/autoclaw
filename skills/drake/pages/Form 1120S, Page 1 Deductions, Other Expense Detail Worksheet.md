@@ -1,0 +1,10 @@
+---
+title: Form 1120S, Page 1 Deductions, Other Expense Detail Worksheet
+row_advance: Tab
+columns: ["Description", "Amount"]
+---
+# Form 1120S, Page 1 Deductions, Other Expense Detail Worksheet
+
+- Summarize amounts into general categories.
+- Keep `Description` in ALL CAPS.
+- Keep this as a separate form payload from the main deduction categories.
