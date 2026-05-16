@@ -34,6 +34,24 @@ NON_AMOUNT_COLUMNS = {
     "Account is For",
     "Financial institution",
     "Account number",
+    "Street address",
+    "Unknown max account value",
+    "Country code",
+    "IRS Country code",
+    "Postal code",
+}
+ALLOWED_CODE_VALUES = {
+    "T/S": {"T", "S", "J"},
+    "TSJ": {"T", "S", "J"},
+    "S/L": {"S", "L"},
+}
+PAGE_REQUIRED_COLUMNS = {
+    "8949": {"1099-B"},
+    "8949-DA": {"1099-B"},
+}
+PAGE_ALLOWED_VALUES = {
+    "8949": {"1099-B": {"1", "2", "3"}},
+    "8949-DA": {"1099-B": {"4", "5", "6"}},
 }
 
 
@@ -86,13 +104,18 @@ def validate_form(page: PageSpec, csv_text: str, activation_key: str) -> Validat
         raise ValueError(f"{page.key}: unknown CSV columns: {', '.join(unknown_headers)}")
     if not output_columns:
         raise ValueError(f"{page.key}: CSV must include at least one Drake column.")
+    _validate_required_columns(page.key, output_columns)
 
     rows: list[dict[str, str]] = []
     items: list[CsvItem] = []
     column_totals = {column: Decimal("0") for column in output_columns}
+    warnings = _build_warnings(page, input_headers, output_columns)
 
     for row_index, row in enumerate(reader, start=1):
         normalized_row = {column: _clean_cell(row.get(column, "")) for column in input_headers}
+        _validate_code_values(page.key, normalized_row, output_columns, row_index)
+        _validate_page_values(page.key, normalized_row, output_columns, row_index)
+        warnings.extend(_build_row_warnings(page.key, normalized_row, output_columns, row_index))
         rows.append(normalized_row)
         label = normalized_row.get(item_header or "", "") or f"Row {row_index}"
         for column in output_columns:
@@ -108,7 +131,6 @@ def validate_form(page: PageSpec, csv_text: str, activation_key: str) -> Validat
             items.append(CsvItem(label=label, column=column, amount=amount, row_index=row_index))
 
     all_total = sum(column_totals.values(), Decimal("0"))
-    warnings = _build_warnings(page, input_headers, output_columns)
     return ValidatedForm(
         page=page,
         activation_key=activation_key,
@@ -187,6 +209,15 @@ def _build_warnings(page: PageSpec, input_headers: list[str], output_columns: li
     return warnings
 
 
+def _build_row_warnings(page_key: str, row: dict[str, str], output_columns: list[str], row_index: int) -> list[str]:
+    warnings: list[str] = []
+    if page_key in {"8949", "8949-DA"}:
+        for column in ("ST", "City"):
+            if column in output_columns and row.get(column, "").strip():
+                warnings.append(f"{page_key}: {column} row {row_index} is populated; recommend blank unless source explicitly supports it.")
+    return warnings
+
+
 def _find_item_header(header_map: dict[str, str]) -> str | None:
     for candidate in UI_ITEM_COLUMNS:
         if candidate in header_map:
@@ -195,7 +226,48 @@ def _find_item_header(header_map: dict[str, str]) -> str | None:
 
 
 def _is_amount_column(column: str) -> bool:
-    return column not in NON_AMOUNT_COLUMNS and "date" not in column.casefold()
+    lowered = column.casefold()
+    if column in NON_AMOUNT_COLUMNS:
+        return False
+    if "date" in lowered:
+        return False
+    if any(token in lowered for token in ("(bool)", "(text)", "province/state", "country", "postal", "zip", "giin")):
+        return False
+    return True
+
+
+def _validate_code_values(page_key: str, row: dict[str, str], output_columns: list[str], row_index: int) -> None:
+    for column in output_columns:
+        allowed = ALLOWED_CODE_VALUES.get(column)
+        if not allowed:
+            continue
+        value = row.get(column, "").strip().upper()
+        if not value:
+            continue
+        if value not in allowed:
+            allowed_text = ", ".join(sorted(allowed))
+            raise ValueError(f"{page_key}: {column} row {row_index} must be one of {allowed_text}; got {row.get(column)!r}")
+
+
+def _validate_required_columns(page_key: str, output_columns: list[str]) -> None:
+    required = PAGE_REQUIRED_COLUMNS.get(page_key, set())
+    missing = [column for column in sorted(required) if column not in output_columns]
+    if missing:
+        raise ValueError(f"{page_key}: missing required CSV columns: {', '.join(missing)}")
+
+
+def _validate_page_values(page_key: str, row: dict[str, str], output_columns: list[str], row_index: int) -> None:
+    rules = PAGE_ALLOWED_VALUES.get(page_key, {})
+    for column, allowed in rules.items():
+        if column not in output_columns:
+            continue
+        value = row.get(column, "").strip()
+        if not value:
+            allowed_text = ", ".join(sorted(allowed))
+            raise ValueError(f"{page_key}: {column} row {row_index} is required and must be one of {allowed_text}.")
+        if value not in allowed:
+            allowed_text = ", ".join(sorted(allowed))
+            raise ValueError(f"{page_key}: {column} row {row_index} must be one of {allowed_text}; got {value!r}")
 
 
 def _parse_amount(value: str, page_key: str, column: str, row_index: int) -> Decimal:
@@ -228,7 +300,12 @@ def _format_plain(amount: Decimal) -> str:
 
 
 def _clean_cell(value: str | None) -> str:
-    return "" if value is None else str(value).strip()
+    if value is None:
+        return ""
+    text = str(value)
+    if text == " ":
+        return " "
+    return text.strip()
 
 
 def _normalize(value: str) -> str:

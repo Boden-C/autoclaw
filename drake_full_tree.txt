@@ -1,0 +1,534 @@
+﻿Focused: Unnamed Group <outside selected window>
+[0] 'Drake 2025 Tax Software' Window {close, minimize, maximize, restore, click-input}
+  [1] 'Drake 2025 - Data Entry (300789996 - GREENROAD CONSTRUCTION LLC) - (CONTAINS SENSITIVE DATA)' Window {close, minimize, maximize, restore, click-input}
+    [2] 'Drake 2025 - Data Entry (300789996 - GREENROAD CONSTRUCTION LLC) - (CONTAINS SENSITIVE DATA)' Window {close, minimize, maximize, restore, click-input}
+      [3] Unnamed TitleBar {set-text, append-text, get-value, send, click-input}
+        [4] 'Minimize' Button {invoke, click-input, click}
+        [5] 'Restore' Button {invoke, click-input, click}
+        [6] 'Close' Button {invoke, click-input, click}
+      [7] 'Screen Menu' Group {expand, collapse, click-input}
+        [8] 'Screen Menu' Button {toggle, get-toggle-state, click-input, click}
+          [9] 'Screen Menu' Text {click-input}
+        [10] Unnamed ToolBar {click-input}
+          [11] Unnamed Button {toggle, get-toggle-state, click-input, click}
+          [12] Unnamed Menu {click-input}
+            [13] Unnamed MenuItem {invoke, click-input}
+              [14] Unnamed Image {click-input}
+              [15] 'Calculate' Text {click-input}
+            [16] Unnamed MenuItem {invoke, click-input}
+              [17] Unnamed Image {click-input}
+              [18] 'View/Print' Text {click-input}
+            [19] Unnamed Separator {click-input}
+            [20] Unnamed MenuItem {invoke, click-input}
+              [21] Unnamed Image {click-input}
+              [22] 'Refresh' Text {click-input}
+            [23] Unnamed MenuItem {invoke, click-input}
+              [24] Unnamed Image {click-input}
+              [25] 'Delete' Text {click-input}
+            [26] Unnamed MenuItem {invoke, click-input}
+              [27] Unnamed Image {click-input}
+              [28] 'Clear Flags' Text {click-input}
+            [29] Unnamed Separator {click-input}
+            [30] Unnamed MenuItem {invoke, click-input}
+              [31] Unnamed Image {click-input}
+              [32] 'Previous' Text {click-input}
+            [33] Unnamed MenuItem {invoke, click-input}
+              [34] Unnamed Image {click-input}
+              [35] 'Next' Text {click-input}
+            [36] Unnamed Separator {click-input}
+            [37] Unnamed MenuItem {invoke, click-input}
+              [38] Unnamed Image {click-input}
+              [39] 'Calculator' Text {click-input}
+            [40] Unnamed MenuItem {invoke, click-input}
+              [41] Unnamed Image {click-input}
+              [42] 'PY Fields' Text {click-input}
+            [43] Unnamed MenuItem {invoke, click-input}
+              [44] Unnamed Image {click-input}
+              [45] 'PY Data' Text {click-input}
+            [46] Unnamed MenuItem {expand, collapse, click-input}
+              [47] Unnamed Image {click-input}
+              [48] 'Text Size' Text {click-input}
+            [49] Unnamed Separator {click-input}
+            [50] Unnamed MenuItem {invoke, click-input}
+              [51] Unnamed Image {click-input}
+              [52] 'Help' Text {click-input}
+            [53] Unnamed MenuItem {expand, collapse, click-input}
+              [54] Unnamed Button {invoke, click-input, click}
+                [55] Unnamed Image {click-input}
+                [56] 'Exit' Text {click-input}
+      [57] Unnamed StatusBar {click-input}
+        [58] 'Record 1 of 1' Text {click-input}
+        [59] Unnamed Separator {click-input}
+        [60] Unnamed Text {click-input}
+        [61] Unnamed Separator {click-input}
+        [62] 'Press F1 or Right-Click for Help' Text {click-input}
+        [63] Unnamed Separator {click-input}
+        [64] Unnamed Text {click-input}
+      [65] Unnamed Tab {click-input}
+        [66] Unnamed Custom {click-input}
+          [67] Unnamed Text {click-input}
+          [68] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [69] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [70] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [71] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [72] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [73] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [74] '=' Text {click-input}
+          [75] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [76] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [77] 'Cost' CheckBox {toggle, get-toggle-state, click-input, click}
+            [78] 'Cost' Text {click-input}
+          [79] 'Lower of cost or market' CheckBox {toggle, get-toggle-state, click-input, click}
+            [80] 'Lower of cost or market' Text {click-input}
+          [81] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [82] 'Non-incidental materials and supplies method' RadioButton {select, click-input, click}
+            [83] 'Non-incidental materials and supplies method' Text {click-input}
+          [84] 'AFS method' RadioButton {select, click-input, click}
+            [85] 'AFS method' Text {click-input}
+          [86] 'Non-AFS method' RadioButton {select, click-input, click}
+            [87] 'Non-AFS method' Text {click-input}
+          [88] 'Select this box if there was a write-down of subnormal goods.' CheckBox {toggle, get-toggle-state, click-input, click}
+            [89] 'Select this box if there was a write-down of subnormal goods.' Text {click-input}
+          [90] 'Select this box if LIFO was adopted this tax year.' CheckBox {toggle, get-toggle-state, click-input, click}
+            [91] 'Select this box if LIFO was adopted this tax year.' Text {click-input}
+          [92] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [93] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [94] Unnamed RadioButton {select, click-input, click}
+            [95] Unnamed Text {click-input}
+          [96] Unnamed RadioButton {select, click-input, click}
+            [97] Unnamed Text {click-input}
+          [98] Unnamed RadioButton {select, click-input, click}
+            [99] Unnamed Text {click-input}
+          [100] Unnamed RadioButton {select, click-input, click}
+            [101] Unnamed Text {click-input}
+          [102] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+          [103] Unnamed Button {invoke, click-input, click}
+            [104] Unnamed Image {click-input}
+          [105-106] 'Form 1125-A - Cost of Goods Sold', '1' Text
+          [107] Unnamed Button {invoke, click-input, click}
+            [108] Unnamed Image {click-input}
+          [109-135] 'Inventory at beginning of year..........................................................................................', '2', 'Purchases less cost of items withdrawn for personal use.................................................................', '3', ... Text
+          [136] Unnamed Button {invoke, click-input, click}
+            [137] Unnamed Image {click-input}
+          [138-140] 'W-2 wages paid..........................................................................................................', 'Certain small business taxpayers alternative methods of accounting for inventories', 'If LIFO was used, enter amount of closing LIFO reserve..................................................................' Text
+    [141] 'Drake 2025 - Data Entry (300789996 - GREENROAD CONSTRUCTION LLC) - (CONTAINS SENSITIVE DATA)' Window {close, minimize, maximize, restore, click-input}
+      [142] Unnamed TitleBar {set-text, append-text, get-value, send, click-input}
+        [143] 'Minimize' Button {invoke, click-input, click}
+        [144] 'Restore' Button {invoke, click-input, click}
+        [145] 'Close' Button {invoke, click-input, click}
+      [146] 'Screen Menu' Group {expand, collapse, click-input}
+        [147] 'Screen Menu' Button {toggle, get-toggle-state, click-input, click}
+          [148] 'Screen Menu' Text {click-input}
+        [149] Unnamed ToolBar {click-input}
+          [150] Unnamed Button {toggle, get-toggle-state, click-input, click}
+          [151] Unnamed Menu {click-input}
+            [152] Unnamed MenuItem {invoke, click-input}
+              [153] Unnamed Image {click-input}
+              [154] 'Calculate' Text {click-input}
+            [155] Unnamed MenuItem {invoke, click-input}
+              [156] Unnamed Image {click-input}
+              [157] 'View/Print' Text {click-input}
+            [158] Unnamed Separator {click-input}
+            [159] Unnamed MenuItem {invoke, click-input}
+              [160] Unnamed Image {click-input}
+              [161] 'Refresh' Text {click-input}
+            [162] Unnamed MenuItem {invoke, click-input}
+              [163] Unnamed Image {click-input}
+              [164] 'Delete' Text {click-input}
+            [165] Unnamed MenuItem {invoke, click-input}
+              [166] Unnamed Image {click-input}
+              [167] 'Clear Flags' Text {click-input}
+            [168] Unnamed Separator {click-input}
+            [169] Unnamed MenuItem {invoke, click-input}
+              [170] Unnamed Image {click-input}
+              [171] 'Previous' Text {click-input}
+            [172] Unnamed MenuItem {invoke, click-input}
+              [173] Unnamed Image {click-input}
+              [174] 'Next' Text {click-input}
+            [175] Unnamed Separator {click-input}
+            [176] Unnamed MenuItem {invoke, click-input}
+              [177] Unnamed Image {click-input}
+              [178] 'Calculator' Text {click-input}
+            [179] Unnamed MenuItem {invoke, click-input}
+              [180] Unnamed Image {click-input}
+              [181] 'PY Fields' Text {click-input}
+            [182] Unnamed MenuItem {invoke, click-input}
+              [183] Unnamed Image {click-input}
+              [184] 'PY Data' Text {click-input}
+            [185] Unnamed MenuItem {expand, collapse, click-input}
+              [186] Unnamed Image {click-input}
+              [187] 'Text Size' Text {click-input}
+            [188] Unnamed Separator {click-input}
+            [189] Unnamed MenuItem {invoke, click-input}
+              [190] Unnamed Image {click-input}
+              [191] 'Help' Text {click-input}
+            [192] Unnamed MenuItem {expand, collapse, click-input}
+              [193] Unnamed Button {invoke, click-input, click}
+                [194] Unnamed Image {click-input}
+                [195] 'Exit' Text {click-input}
+      [196] Unnamed StatusBar {click-input}
+        [197] 'New Screen' Text {click-input}
+        [198] Unnamed Separator {click-input}
+        [199] Unnamed Text {click-input}
+        [200] Unnamed Separator {click-input}
+        [201] 'Press F1 or Right-Click for Help' Text {click-input}
+        [202] Unnamed Separator {click-input}
+        [203] Unnamed Text {click-input}
+      [204] Unnamed Tab {click-input}
+        [205] Unnamed Custom {click-input}
+          [206] Unnamed Text {click-input}
+          [207] 'Publicly Traded Partnership Electing 3.5% Tax' Group {click-input}
+            [208] 'Publicly Traded Partnership Electing 3.5% Tax' Text {click-input}
+            [209] Unnamed Button {invoke, click-input, click}
+              [210] Unnamed Image {click-input}
+            [211] 'Publicly traded partnership electing 3.5% tax' CheckBox {toggle, get-toggle-state, click-input, click}
+              [212] 'Publicly traded partnership electing 3.5% tax' Text {click-input}
+            [213] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [214-215] '=', 'Gross income subject to 3.5% tax........................................................................................' Text
+          [216] 'Other Income' Group {click-input}
+            [217] 'Other Income' Text {click-input}
+            [218] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [219] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [220] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [221] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [222] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [223] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [224-225] 'Interest income on receivables..........................................................................................', 'Recoveries of bad debts deducted in earlier years.......................................................................' Text
+            [226] Unnamed Button {invoke, click-input, click}
+              [227] Unnamed Image {click-input}
+            [228-233] 'Section 481 adjustments.................................................................................................', 'State tax refund (cash basis)...........................................................................................', 'Taxable income from insurance proceeds..................................................................................', 'Other income (itemize)..................................................................................................', ... Text
+          [234] 'Form 1065 - Income' Group {click-input}
+            [235] 'Form 1065 - Income' Text {click-input}
+            [236] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [237] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+            [238-247] 'Gross receipts or sales.................................................................................................', 'Income from other partnerships, estates, and trusts.....................................................................', '1a', '4', ... Text
+            [248] 'K1P Screen' Button {invoke, click-input, click}
+              [249] 'K1P Screen' Text {click-input}
+            [250] 'K1F Screen' Button {invoke, click-input, click}
+              [251] 'K1F Screen' Text {click-input}
+            [252] '1125-A' Button {invoke, click-input, click}
+              [253] '1125-A' Text {click-input}
+          [254] Unnamed Button {invoke, click-input, click}
+            [255] Unnamed Image {click-input}
+          [256] 'Income' Text {click-input}
+    [257] Unnamed TitleBar {set-text, append-text, get-value, send, click-input}
+      [258] 'Minimize' Button {invoke, click-input, click}
+      [259] 'Maximize' Button {invoke, click-input, click}
+      [260] 'Close' Button {invoke, click-input, click}
+    [261] Unnamed ToolBar {click-input}
+      [262] Unnamed Button {toggle, get-toggle-state, click-input, click}
+      [263] Unnamed Menu {click-input}
+        [264] Unnamed MenuItem {invoke, click-input}
+          [265] Unnamed Image {click-input}
+          [266] 'Calculate' Text {click-input}
+        [267] Unnamed MenuItem {invoke, click-input}
+          [268] Unnamed Image {click-input}
+          [269] 'View/Print' Text {click-input}
+        [270] Unnamed Separator {click-input}
+        [271] Unnamed MenuItem {invoke, click-input}
+          [272] Unnamed Image {click-input}
+          [273] 'Documents' Text {click-input}
+        [274] Unnamed Separator {click-input}
+        [275] Unnamed MenuItem {invoke, click-input}
+          [276] Unnamed Image {click-input}
+          [277] 'Tax Planner' Text {click-input}
+        [278] Unnamed MenuItem {expand, collapse, click-input}
+          [279] Unnamed Image {click-input}
+          [280] 'Import' Text {click-input}
+        [281] Unnamed MenuItem {expand, collapse, click-input}
+          [282] Unnamed Image {click-input}
+          [283] 'CSM' Text {click-input}
+        [284] Unnamed MenuItem {invoke, click-input}
+          [285] Unnamed Image {click-input}
+          [286] 'Email' Text {click-input}
+        [287] Unnamed MenuItem {expand, collapse, click-input}
+          [288] Unnamed Button {invoke, click-input, click}
+            [289] Unnamed Image {click-input}
+          [290] 'Payments' Text {click-input}
+        [291] Unnamed MenuItem {expand, collapse, click-input}
+          [292] Unnamed Image {click-input}
+          [293] 'Help' Text {click-input}
+        [294] Unnamed MenuItem {invoke, click-input}
+          [295] Unnamed Image {click-input}
+          [296] 'Exit' Text {click-input}
+    [297] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+    [298] 'Enter Screen, State or Search Phrase' Text {click-input}
+    [299] Unnamed Text {click-input}
+      [300] Unnamed Text {click-input}
+    [301] Unnamed StatusBar {click-input}
+      [302] 'Return Status: EF Ext Accepted' Text {click-input}
+      [303] Unnamed Separator {click-input}
+      [304] 'Return Type: Partnership Tax Return' Text {click-input}
+      [305] Unnamed Separator {click-input}
+      [306] 'Current Package: Federal' Text {click-input}
+      [307] Unnamed Text {click-input}
+    [308] Unnamed Tab {click-input}
+      [309] 'General' TabItem {select, click-input}
+        [310] 'General' Text {click-input}
+        [311] '1|Name, Address, and General Info.' Button {invoke, click-input, click}
+        [312] 'INC|Income' Button {invoke, click-input, click}
+        [313] 'DED|Deductions' Button {invoke, click-input, click}
+        [314] 'TAX|Tax and Payment' Button {invoke, click-input, click}
+        [315] 'A|Form 1125-A, Cost of Goods Sold' Button {invoke, click-input, click}
+        [316] 'B|Schedule B, Other Information' Button {invoke, click-input, click}
+        [317] 'B1|Schedule B-1, Ownership Information' Button {invoke, click-input, click}
+        [318] 'B2|Schedule B-2, Audit Election' Button {invoke, click-input, click}
+        [319] 'B3|Schedule B - Lines 3a and 3b' Button {invoke, click-input, click}
+        [320] 'B4|Partnership Representative' Button {invoke, click-input, click}
+        [321] 'Schedule L, Balance Sheet' Group {click-input}
+          [322] Unnamed Text {click-input}
+            [323] 'Schedule L, Balance Sheet' Text {click-input}
+          [324] 'L|Assets, Liabilities, and Capital' Button {invoke, click-input, click}
+          [325] 'SCH2|Balance Sheet Subsidiary Schedule - (3)' Button {invoke, click-input, click}
+        [326] 'Schedules M' Group {click-input}
+          [327] Unnamed Text {click-input}
+            [328] 'Schedules M' Text {click-input}
+          [329] 'M1|Reconciliation of Income' Button {invoke, click-input, click}
+          [330] 'M2|Partners' Capital' Button {invoke, click-input, click}
+        [331] 'Schedule M-3' Group {click-input}
+          [332] Unnamed Text {click-input}
+            [333] 'Schedule M-3' Text {click-input}
+          [334] 'M3|Part I' Button {invoke, click-input, click}
+          [335] 'M32|Part II' Button {invoke, click-input, click}
+          [336] 'M33|Part III' Button {invoke, click-input, click}
+          [337] 'C|Schedule C for M-3 Filers' Button {invoke, click-input, click}
+          [338] 'M3S|Part I - Supplemental Statements' Button {invoke, click-input, click}
+          [339] 'SCH3|Subsidiary Schedule' Button {invoke, click-input, click}
+          [340] '8916|Supplemental Attachment' Button {invoke, click-input, click}
+        [341] 'Electronic Filing' Group {click-input}
+          [342] Unnamed Text {click-input}
+            [343] 'Electronic Filing' Text {click-input}
+          [344] 'PIN|e-File Signature Authorization' Button {invoke, click-input, click}
+          [345] 'SEC|Filing Security Information' Button {invoke, click-input, click}
+          [346] 'EF|EF Selections' Button {invoke, click-input, click}
+          [347] 'PDF|PDF Attachments' Button {invoke, click-input, click}
+          [348] 'DD|Direct Deposit' Button {invoke, click-input, click}
+        [349] 'FAQ|Frequently Asked Questions' Button {invoke, click-input, click}
+        [350] 'PRNT|Print Options' Button {invoke, click-input, click}
+      [351] 'PTR K, K-1, K-2, K-3' TabItem {select, click-input}
+        [352] 'PTR K, K-1, K-2, K-3' Text {click-input}
+      [353] 'Assets-Sales-Recapture' TabItem {select, click-input}
+        [354] 'Assets-Sales-Recapture' Text {click-input}
+      [355] 'Credits' TabItem {select, click-input}
+        [356] 'Credits' Text {click-input}
+      [357] 'Other Forms' TabItem {select, click-input}
+        [358] 'Other Forms' Text {click-input}
+      [359] 'Foreign' TabItem {select, click-input}
+        [360] 'Foreign' Text {click-input}
+      [361] 'Miscellaneous' TabItem {select, click-input}
+        [362] 'Miscellaneous' Text {click-input}
+      [363] 'States' TabItem {select, click-input}
+        [364] 'States' Text {click-input}
+  [365] Unnamed TitleBar {set-text, append-text, get-value, send, click-input}
+    [366] 'System' MenuBar {click-input}
+      [367] 'System' MenuItem {expand, collapse, click-input}
+    [368] 'Minimize' Button {invoke, click-input, click}
+    [369] 'Restore' Button {invoke, click-input, click}
+    [370] 'Close' Button {invoke, click-input, click}
+  [371] Unnamed Menu {click-input}
+    [372] 'File' MenuItem {expand, collapse, click-input}
+      [373] '_File' Text {click-input}
+    [374] 'EF' MenuItem {expand, collapse, click-input}
+      [375] '_EF' Text {click-input}
+    [376] 'Tools' MenuItem {expand, collapse, click-input}
+      [377] '_Tools' Text {click-input}
+    [378] 'Reports' MenuItem {expand, collapse, click-input}
+      [379] '_Reports' Text {click-input}
+    [380] 'Last Year Data' MenuItem {expand, collapse, click-input}
+      [381] '_Last Year Data' Text {click-input}
+    [382] 'Setup' MenuItem {expand, collapse, click-input}
+      [383] '_Setup' Text {click-input}
+    [384] 'Help' MenuItem {expand, collapse, click-input}
+      [385] '_Help' Text {click-input}
+  [386] Unnamed ToolBar {click-input}
+    [387] Unnamed Button {toggle, get-toggle-state, click-input, click}
+    [388] Unnamed Menu {click-input}
+      [389] Unnamed MenuItem {invoke, click-input}
+        [390] Unnamed Button {invoke, click-input, click}
+          [391] Unnamed Image {click-input}
+          [392] 'Open/Create' Text {click-input}
+      [393] Unnamed Separator {click-input}
+      [394] Unnamed MenuItem {invoke, click-input}
+        [395] Unnamed Button {invoke, click-input, click}
+          [396] Unnamed Image {click-input}
+          [397] 'Calculate' Text {click-input}
+      [398] Unnamed MenuItem {invoke, click-input}
+        [399] Unnamed Button {invoke, click-input, click}
+          [400] Unnamed Image {click-input}
+          [401] 'Print' Text {click-input}
+      [402] Unnamed MenuItem {invoke, click-input}
+        [403] Unnamed Button {invoke, click-input, click}
+          [404] Unnamed Image {click-input}
+          [405] 'View' Text {click-input}
+      [406] Unnamed MenuItem {expand, collapse, click-input}
+        [407] Unnamed Image {click-input}
+        [408] 'e-File Status' Text {click-input}
+      [409] Unnamed Separator {click-input}
+      [410] Unnamed MenuItem {invoke, click-input}
+        [411] Unnamed Button {invoke, click-input, click}
+          [412] Unnamed Image {click-input}
+          [413] 'CSM' Text {click-input}
+      [414] Unnamed MenuItem {invoke, click-input}
+        [415] Unnamed Button {invoke, click-input, click}
+          [416] Unnamed Image {click-input}
+          [417] 'Scheduler' Text {click-input}
+      [418] Unnamed MenuItem {invoke, click-input}
+        [419] Unnamed Button {invoke, click-input, click}
+          [420] Unnamed Image {click-input}
+          [421] 'Documents' Text {click-input}
+      [422] Unnamed MenuItem {invoke, click-input}
+        [423] Unnamed Button {invoke, click-input, click}
+          [424] Unnamed Image {click-input}
+          [425] 'Workflow' Text {click-input}
+      [426] Unnamed MenuItem {invoke, click-input}
+        [427] Unnamed Button {invoke, click-input, click}
+          [428] Unnamed Image {click-input}
+          [429] 'Portals' Text {click-input}
+      [430] Unnamed MenuItem {expand, collapse, click-input}
+        [431] Unnamed Image {click-input}
+        [432] 'Partners' Text {click-input}
+      [433] Unnamed Separator {click-input}
+      [434] Unnamed MenuItem {expand, collapse, click-input}
+        [435] Unnamed Image {click-input}
+        [436] 'Support' Text {click-input}
+      [437] Unnamed MenuItem {invoke, click-input}
+        [438] Unnamed Button {invoke, click-input, click}
+          [439] Unnamed Image {click-input}
+          [440] 'Chat Support' Text {click-input}
+      [441] Unnamed MenuItem {invoke, click-input}
+        [442] Unnamed Button {invoke, click-input, click}
+          [443] Unnamed Image {click-input}
+          [444] 'Feedback' Text {click-input}
+      [445] Unnamed Separator {click-input}
+      [446] Unnamed MenuItem {invoke, click-input}
+        [447] Unnamed Button {invoke, click-input, click}
+          [448] Unnamed Image {click-input}
+          [449] 'Exit' Text {click-input}
+  [450] Unnamed Group {expand, collapse, click-input}
+    [451] Unnamed Button {toggle, get-toggle-state, click-input, click}
+    [452-454] 'Recent Returns:', 'Key', 'View/Print' Text
+    [455] Unnamed DataGrid {scroll, click-input}
+      [456] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [457] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [458] 'GREENROAD CONSTRUCTION LLC' Button {invoke, click-input, click}
+            [459] 'GREENROAD CONSTRUCTION LLC' Text {click-input}
+        [460] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [461] '1' Text {click-input}
+            [462] '1' Text {click-input}
+        [463] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [464] Unnamed Button {invoke, click-input, click}
+            [465] Unnamed Image {click-input}
+      [466] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [467] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [468] 'CHEN, YUNSHU' Button {invoke, click-input, click}
+            [469] 'CHEN, YUNSHU' Text {click-input}
+        [470] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [471] '2' Text {click-input}
+            [472] '2' Text {click-input}
+        [473] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [474] Unnamed Button {invoke, click-input, click}
+            [475] Unnamed Image {click-input}
+      [476] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [477] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [478] 'CHANG, YUCHEN' Button {invoke, click-input, click}
+            [479] 'CHANG, YUCHEN' Text {click-input}
+        [480] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [481] '3' Text {click-input}
+            [482] '3' Text {click-input}
+        [483] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [484] Unnamed Button {invoke, click-input, click}
+            [485] Unnamed Image {click-input}
+      [486] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [487] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [488] 'SHAO, JASON & SHELEY' Button {invoke, click-input, click}
+            [489] 'SHAO, JASON & SHELEY' Text {click-input}
+        [490] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [491] '4' Text {click-input}
+            [492] '4' Text {click-input}
+        [493] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [494] Unnamed Button {invoke, click-input, click}
+            [495] Unnamed Image {click-input}
+      [496] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [497] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [498] 'WANG, CHUN CHIEH' Button {invoke, click-input, click}
+            [499] 'WANG, CHUN CHIEH' Text {click-input}
+        [500] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [501] '5' Text {click-input}
+            [502] '5' Text {click-input}
+        [503] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [504] Unnamed Button {invoke, click-input, click}
+            [505] Unnamed Image {click-input}
+      [506] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [507] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [508] 'ONG, SAM & SOPHIA' Button {invoke, click-input, click}
+            [509] 'ONG, SAM & SOPHIA' Text {click-input}
+        [510] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [511] '6' Text {click-input}
+            [512] '6' Text {click-input}
+        [513] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [514] Unnamed Button {invoke, click-input, click}
+            [515] Unnamed Image {click-input}
+      [516] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [517] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [518] 'HSU, JAN' Button {invoke, click-input, click}
+            [519] 'HSU, JAN' Text {click-input}
+        [520] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [521] '7' Text {click-input}
+            [522] '7' Text {click-input}
+        [523] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [524] Unnamed Button {invoke, click-input, click}
+            [525] Unnamed Image {click-input}
+      [526] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [527] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [528] 'ALU ARCHITECTURE PLLC' Button {invoke, click-input, click}
+            [529] 'ALU ARCHITECTURE PLLC' Text {click-input}
+        [530] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [531] '8' Text {click-input}
+            [532] '8' Text {click-input}
+        [533] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [534] Unnamed Button {invoke, click-input, click}
+            [535] Unnamed Image {click-input}
+      [536] 'Drake.DrakeTax.Entities.TaxPreparer.RecentReturn' DataItem {select, click-input}
+        [537] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 0' Custom {set-text, append-text, get-value, send, click-input}
+          [538] 'WANG, SUHUI & HSIEH, FUYEN' Button {invoke, click-input, click}
+            [539] 'WANG, SUHUI & HSIEH, FUYEN' Text {click-input}
+        [540] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 1' Custom {set-text, append-text, get-value, send, click-input}
+          [541] '9' Text {click-input}
+            [542] '9' Text {click-input}
+        [543] 'Item: Drake.DrakeTax.Entities.TaxPreparer.RecentReturn, Column Display Index: 2' Custom {set-text, append-text, get-value, send, click-input}
+          [544] Unnamed Button {invoke, click-input, click}
+            [545] Unnamed Image {click-input}
+    [546] Unnamed Separator {click-input}
+    [547] 'Appointments:' Text {click-input}
+    [548] 'No upcoming appointments today.' Button {invoke, click-input, click}
+      [549] 'No upcoming appointments today.' Text {click-input}
+    [550] Unnamed Separator {click-input}
+    [551] 'Alerts & Notifications:' Text {click-input}
+    [552] Unnamed Pane {click-input}
+      [553] Unnamed Pane {click-input}
+        [554] Unnamed Pane {click-input}
+          [555] 'http://www.drakealerts.com/alerts-2025/?utm_source=Drake2025&utm_medium=302632&utm_campaign=alerts&utm_content=deskto...' Pane {scroll, click-input}
+            [556] 'Drake Software Alerts Page' Pane {type-keys, send, click-input}
+              [557] 'New Tax Bill Info' Hyperlink {invoke, set-text, append-text, get-value, send, click-input}
+                [558] 'New Tax Bill Info' Text {invoke, set-text, append-text, get-value, send, click-input}
+              [559] '2025 Full Release' Text {click-input}
+    [560] Unnamed Separator {click-input}
+    [561-562] 'Scheduled Updates: On LAPTOP-SERVER', 'Software up to date' Text
+    [563] Unnamed Thumb {click-input}
+  [564] 'Enable Privacy' Button {invoke, click-input, click}
+    [565] 'Enable Privacy' Text {click-input}
+  [566] Unnamed Edit {set-text, append-text, get-value, send, type-keys, scroll, click-input}
+    [567] Unnamed ScrollBar {set-value, get-range-value, click-input}
+      [568] Unnamed Button {invoke, click-input, click}
+      [569] Unnamed Button {invoke, click-input, click}
+  [570] Unnamed StatusBar {click-input}
+    [571] 'User: NEO' Text {click-input}
+    [572] Unnamed Separator {click-input}
+    [573] 'Drake PRO - Single User' Text {click-input}
+    [574] Unnamed Separator {click-input}
+    [575] 'Full Version: P1.01.02.2026.60' Text {click-input}
+    [576] Unnamed Separator {click-input}
+    [577] 'Path: C:\DRAKE25' Text {click-input}
+    [578] Unnamed Separator {click-input}
+    [579] 'Sunday, April 26, 2026' Text {click-input}
+    [580] Unnamed Separator {click-input}
